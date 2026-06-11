@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express'
-import { connectToDatabase } from './db'
+import { connectToDatabase } from './config/database'
 import { User } from './models/User'
 import { Team } from './models/Team'
 import { Activity } from './models/Activity'
